@@ -1,0 +1,11 @@
+<h1>Giriş Formu</h1>
+<form (ngSubmit)="onSubmit()">
+  <label for="username">Kullanıcı Adı:</label>
+  <input type="text" id="username"  [(ngModel)]="username"  name="user_name">
+  <br>
+  <label for="password">Şifre:</label>
+  <input type="password" id="password" [(ngModel)]="password" name="user_password">
+  <br>
+  <button type="submit">Giriş Yap</button>
+</form>
+
